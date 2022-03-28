@@ -1,0 +1,209 @@
+#body{
+    background-color:rgb(0, 0, 0);
+}
+#header{
+    display: grid;
+    grid-template-columns: 2fr 5fr 4fr;
+    background: rgb(7, 84, 104);
+    color: rgb(19, 16, 16);
+    position: relative;
+   }
+ 
+   
+@media only screen and (min-width:1211px) {
+    #btn{
+        display: inline-block;
+        position: absolute;
+        margin-left: 1000px ;
+        margin-top: 40px ;  
+         color: rgb(0, 0, 0);
+         font-size:12px;
+         padding:10px;
+         border-radius: 20px;
+       } 
+}
+
+   #bar{
+    background:  #b19b8d;
+    padding: 0px;
+    display:grid;
+    grid-template-columns: 2fr 5fr;
+    font-weight: bold;
+
+   }
+   #deg{
+       margin-left: 120px;
+       font-weight: bold;
+       background:  #b19b8d;
+
+   }
+   #ins{
+    margin-left: 110px;
+    font-weight: bold;
+    background:  #b19b8d;
+
+}
+   #ui{
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+   }
+   .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   #ent{
+    margin-top: 0px;
+   }
+   #space{
+    margin-left: 30px;
+   
+   }
+
+   #uii{
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+   }
+   #uiii{
+    background: black;
+    height: 10px;
+    width: 80px;
+   }
+   #ps{
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+   }
+   #pss{
+    background: black;
+    height: 10px;
+    width: 70px;
+   }
+   #re{
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+   }
+   #ree{
+    background: black;
+    height: 10px;
+    width: 60px;
+   }
+   #nd{
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+   }
+   #ndd{
+    background: black;
+    height: 10px;
+    width: 40px;
+   }
+
+   #wd{
+    background: #CDCDCF;
+    height: 10px;
+    width: 100px;
+   }
+   #wdd{
+    background: black;
+    height: 10px;
+    width: 90px;
+   }
+
+   .topM{
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+   }
+   #contacts{
+    background:  #b19b8d;
+    padding: 10px;
+    font-weight: bold;
+   }
+   #skills{
+    background:  #b19b8d;
+    padding: 10px;
+    font-weight: bold;
+
+   }
+   #exp1{
+    margin-top:10px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+   }
+   p{
+    text-align: justify;
+   }
+   #head{
+    font-weight: bold;
+   }
+   svg{
+    height: 1em;
+    margin-left: 40px;
+   }  
+    
+
+
+   #left-mrgm{
+    margin-left: 40px;
+    font-weight: bold;
+   }
+   .box{
+    height: 20px;
+    width: 20px;
+    background: black;
+   }
+   #image{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   }
+   #name{
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+
+   }
+   #web{
+    letter-spacing: 0.2em;
+    margin-top: 20px;
+    margin-left:40px;
+    color: rgb(255, 255, 255);
+   }
+   #underline{
+    width: 300px;
+    height: 7px;
+    margin-top: 20px;
+    margin-left:40px;
+    background: #ffffff;
+   }
+   #exp{
+    background: #b19b8d;
+    padding: 10px;
+    font-weight: bold;
+
+   }
+   #wrapper{
+    padding: 0px;
+    margin-top: 50px;
+    background: #fce4c8;
+   }
+   
+
+   @media only screen and (max-width:990px) {
+    a{
+        display: inline-block;
+        position:absolute ;
+
+    }
+}
